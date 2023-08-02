@@ -1,11 +1,14 @@
 ---
 layout: default
-nav_order: 90
-last_modified_date: 2021-10-06
+nav_exclude: false
+nav_order: 91
+
 ---
 
 # Funding
 
-This work is supported by:
-- first grant
-- second grant
+[//]: # Describe the funding sources relevant for your work. 
+
+This work was supported by: 
+* This grant
+* This other grant
