@@ -4,8 +4,8 @@ title: Home
 nav_order: 1
 has_children: true
 description: ""
-hero_heading: "SOFTWARE NAME"
-hero_body: "A software that does X and Y"
+hero_heading: "Minerva"
+hero_body: "A suite of light-weight software tools for interactive viewing and fast sharing of large image data."
 hero_ctas:
   - label: "OVERVIEW"
     link: "overview/"
@@ -21,17 +21,18 @@ hero_ctas:
 
 # Key Features
 
-## Catchy description
+## You only need a browser
 Elaborate on feature.
 
-## Catchy description
+## Share with an url
 Elaborate on feature.
+
+## mobile friendly
+elaborate
 
 ## Open source
-MY SOFTWARE is written in ABC and is available under the MIT License. It can be downloaded at: [https://github.com/labsyspharm/blank-software-website](https://github.com/labsyspharm/blank-software-website).
+Minerva and all of its code is available under the MIT License. It can be downloaded at: [https://github.com/labsyspharm/minerva-story](https://github.com/labsyspharm/minerva-story).
 
-
-**For more details, read the manuscript here: [https://doi.org/](https://doi.org/).**
 
 
 

@@ -7,14 +7,22 @@ nav_order: 90
 
 # People
 [//]: # The main titles here are a suggestion, you may find that another format works better for your application. 
+Minerva is being developed in the [Laboratory for Systems Pharmacology](https://labsyspharm.org) at Harvard Medical School.
 
-## Lead Developers
-* [Person 1](link to their GitHub)
+## Development Team
+* [John Hoffer](https://github.com/thejohnhoffer)
+* [Jeremy Muhlich](https://github.com/jmuhlich/)
+* [Yu-An Chen](https://github.com/yu-anchen)
+* [Robert Krueger](https://github.com/kruegert)
+* [Jia-Ren Lin](https://github.com/jrlin1001)
+* [Simon Warchol](https://github.com/simonwarchol/)
 
-## Contributors
-* [Person 2](link to their GitHub)
+## Alumni
+* [Rumana “Ru” Rashid](https://scholar.google.com/citations?user=PjPMy1gAAAAJ&hl)
+* [Douglas Russel](https://www.linkedin.com/in/douglas-russell-00b52153/)
+* [Juha Ruokonen](https://www.linkedin.com/in/juha-ruokonen-516928a/)
 
-## Laboratory Principal Investigators:
+## Principal Investigators:
 * [Peter K. Sorger](https://scholar.google.com/citations?user=wS6Ii_cAAAAJ&hl=en)
 * [Sandro Santagata](https://scholar.google.com/citations?hl=en&user=9dUOqJ0AAAAJ)
 
