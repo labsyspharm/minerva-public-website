@@ -4,105 +4,29 @@ title: Example data
 nav_order: 20
 nav_exclude: false
 ---
-[//]: # You can hide this page if you don't need it! (nav_exclude: true)
+This example dataset is a valuable resource for the development of multiplexed image viewing tools like Minerva. Download the files to your local computer and use them as inputs to practice using **Minerva Author**. 
 
-# Example Data Set
-[//]: # You may want to provide an example data set for your users. If this is for the tutorial, you may prefer to embed the information for accessing the data set directly in the tutorial page. 
-[//]: # If the data set is more extensive (for example, a comprehensive list of the data used in your manuscript), you may prefer that it has it's own page. 
-[//]: # For image data, you may want to embed some example images of the data set
+For practice, try to reproduce the two stories created to describe [histologic features](https://www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_3.html) and quantitative [single-cell data analysis](https://www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_3_DATA.html) in a single lung cancer specimen.
 
-*Four examples of different methods for embedding images:*
-
-## 1. Image with a static width (defined by the page width)
-![Image of exemplar data 2, showing four cores from a tissue microarray, stained with CD163, CD3D, CD31, VDAC1, and Keratin]({{ site.baseurl }}/images/mcmicro-exemplar-002.jpg)
-
-```
-![Image of exemplar data 2, showing four cores from a tissue microarray, stained with CD163, CD3D, CD31, VDAC1, and Keratin]({{ site.baseurl }}/images/mcmicro-exemplar-002.jpg)
-```
-
-## 2. Image with dynamic scaling (user defines image proportions with [basic grid](https://labsyspharm.github.io/just-the-docs-lsp/docs/utilities/layout/#image-cards){:target="_blank"}
-
-[//]: # The basic grid has a max width of 12. Here, I've set my image to be smaller (1/3 of max) on a phone screen, and larger (1/2 of max) on a larger screen
-
-<div class="row">
-
-<div class="col-xs-4 col-sm-6">
-<div markdown="1">
-![Image of exemplar data 2, showing four cores from a tissue microarray, stained with CD163, CD3D, CD31, VDAC1, and Keratin]({{ site.baseurl }}/images/mcmicro-exemplar-002.jpg)
-</div>
-</div>
-
-</div><!-- end grid -->
+# About the Dataset
+As described in [Rashid et al., Scientific Data, 2019](https://www.nature.com/articles/s41597-019-0332-y), the dataset comprises of multiplexed immunofluorescence images and derived single-cell measurements of immune lineage and other markers in formaldehyde-fixed and paraffin-embedded (FFPE) human lung cancer tissue. We used tissue cyclic immunofluorescence (t-CyCIF) to generate fluorescence images which we artifact corrected using the BaSiC tool, stitched and registered using the ASHLAR algorithm, and segmented using ilastik software and MATLAB. We extracted single-cell features from these images using HistoCAT software. This data is also described in [Du, Lin, and Rashid et al., Nature Protocols, 2019](https://www.nature.com/articles/s41596-019-0206-y).
 
 
-```
-<div class="row">
+# Image File (20 GB)
 
-<div class="col-xs-4 col-sm-6">
-<div markdown="1">
-![Image of exemplar data 2, showing four cores from a tissue microarray, stained with CD163, CD3D, CD31, VDAC1, and Keratin]({{ site.baseurl }}/images/mcmicro-exemplar-002.jpg)
-</div>
-</div>
+- [lung-3-pr_40x.ome.tif](https://www.synapse.org/#!Synapse:syn17778717)
 
-</div><!-- end grid -->
-```
+# Channel Names
 
+<!-- https://www.synapse.org/#!Synapse:syn21815856/files/ -->
+- [marker_name.csv](https://gist.githubusercontent.com/thejohnhoffer/f08eac0a9e15ad50eeb21f84276c93e4/raw/marker_names.csv)
 
+# Visualization Charts
 
-## 3. Image with a static width (defined by the user) 
-<br>
+- [scatterplot.csv](https://gist.githubusercontent.com/thejohnhoffer/f08eac0a9e15ad50eeb21f84276c93e4/raw/scatterplot.csv)
+- [matrix.csv](https://gist.githubusercontent.com/thejohnhoffer/f08eac0a9e15ad50eeb21f84276c93e4/raw/matrix.csv)
+- [barchart.csv](https://gist.githubusercontent.com/thejohnhoffer/f08eac0a9e15ad50eeb21f84276c93e4/raw/barchart.csv)
 
-{: .text-center }
-{: .fs-3 }
-{: .fw-300 }
-<figure>
-	<a>
-		<img src="{{ site.baseurl }}/images/mcmicro-exemplar-002.jpg" style="max-width: 300px;"
-			 alt="Image of exemplar data 2, showing four cores from a tissue microarray, stained with CD163, CD3D, CD31, VDAC1, and Keratin)"  />
-	</a> <figcaption>MCMICRO exemplar-002, showing four cores from a tissue microarray.</figcaption> 
-</figure>
+# Segmentation Mask
 
-```
-{: .text-center }
-{: .fs-3 }
-{: .fw-300 }
-<figure>
-	<a>
-		<img src="{{ site.baseurl }}/images/mcmicro-exemplar-002.jpg" style="max-width: 300px;"
-			 alt="Image of exemplar data 2, showing four cores from a tissue microarray, stained with CD163, CD3D, CD31, VDAC1, and Keratin)"  />
-	</a> <figcaption>MCMICRO exemplar-002, showing four cores from a tissue microarray.</figcaption> 
-</figure>
-```
-<br>
-
-You can add a hyperlink to this image with the following addition:
-```
-{: .text-center }
-{: .fs-3 }
-{: .fw-300 }
-<figure>
-	<a href="https://mcmicro.org/datasets/">
-		<img src="{{ site.baseurl }}/images/mcmicro-exemplar-002.jpg" style="max-width: 300px;"
-			 alt="Image of exemplar data 2, showing four cores from a tissue microarray, stained with CD163, CD3D, CD31, VDAC1, and Keratin)"  />
-	</a> <figcaption>MCMICRO exemplar-002, showing four cores from a tissue microarray.</figcaption> 
-</figure>
-```
-
-
-## 4. Image card with link
-**This method is often used for Minerva stories**
-
-{% assign imageUrl = site.baseurl | append: "/images/mcmicro-exemplar-002.jpg" %}{% include image-card.html 
-    image=imageUrl
-    link="https://mcmicro.org/datasets/"
-    label="Label for image"
-	%}
-
-```
-{% assign imageUrl = site.baseurl | append: "/images/mcmicro-exemplar-002.jpg" %}{% include image-card.html 
-    image=imageUrl
-    link="https://mcmicro.org/datasets/"
-    label="Label for image"
-	%}
-```
-	
+Missing files?
