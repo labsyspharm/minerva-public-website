@@ -6,14 +6,11 @@ parent: Running Minerva
 nav_order: 10
 ---
 
-Minerva Author is compatible with Mac, Winodows and Linux (?).
+Minerva Author has executable files for Mac and Winodows. 
 
-When downloading Minerva Author, please be aware of its current technical limitations:
+For other operating systems (e.g. Linux), Minerva Author can be run direcly with Python.
 
-- Minerva Author only saves to the folder where the application is launched.
-- You ​should **close the previous Minerva Author tab** before opening a new one.
-- Minerva Author has been tested in Chrome and Firefox. It **does not support** Safari or Internet Explorer.
-- All `.story.json` files require linked files (`.tif`, `.ome.tif`, `.svs`, and `.csv`) not to be moved or deleted.
+Note: Minerva Author has been tested in Chrome and Firefox. It **does not support** Safari or Internet Explorer. (pending)
 
 ## Download links
 

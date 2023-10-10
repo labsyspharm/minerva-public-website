@@ -12,12 +12,11 @@ This page will walk you through the steps of creating a basic Minerva Story, wit
 
 To create a Minerva Story, you will need
 
-- A OME-TIFF or SVS image.
-  - You will need to have this on your local computer or....
-  - All OME-TIFF channels must be 16-bit integers, as output by the [mcmicro](https://mcmicro.org/) pipeline, or unsigned 8-bit integers. (how would someone check this?)
+- A OME-TIFF image
+  - This image can either be on your local computer or a mounted drive
 
 - [Recommended] A CSV file with marker names in one column, if marker names are not in the OME-XML metadata.
-  - The header of thee column should be `marker_name`
+  - The header of the column should be `marker_name`
   - *Alternatively*, you will need to know the marker names and order to add them manually.
 
 This [example dataset](./dataset.md) contains a OME-TIFF and CSV marker file that you can use to follow this tutorial.
@@ -58,6 +57,8 @@ Alternatively, if you have already started authoring a story want to return to i
 **Select the CSV file with a list of marker names in the image**
 
 This file must be a .csv with the [same format as the example](https://gist.githubusercontent.com/thejohnhoffer/f08eac0a9e15ad50eeb21f84276c93e4/raw/marker_names.csv).
+
+If you start with `.story.json`, you do not need to provide a CSV file.
 
 **Enter an output name (e.g. LUNG-3-PR) for this story.**
 
@@ -128,10 +129,10 @@ Now it's time to add narrative text and annotate the image. Select the "Edit Sto
 
 **Add as many waypoints as you would like. You can change the zoom, pan, and add annotations such as boxes and arrows to the image.**
 
-- Click the small white "arrow" icon on the right of the control pane to create an arrow.
+- Click the arrow icon ![arrow](./images/arrow.svg) on the right of the control pane to create an arrow.
     - Then click anywhere on the image to place an arrow.
     - Click the name of the arrow at the bottom of the control pane to rename or rotate the arrow.
-- Click the small white "crosshairs" icon on the right of the control pane to make a rectangular outline for any region of interest.
+- Click the crosshair icon ![region](./images/region.svg) on the right of the control pane to make a rectangular outline for any region of interest.
     - Then click and drag anywhere on the image to place the outline.
 
 <img src="https://user-images.githubusercontent.com/9781588/110498441-53562800-80c5-11eb-9225-4e5a46808688.png" align="middle" width="800px" /> 

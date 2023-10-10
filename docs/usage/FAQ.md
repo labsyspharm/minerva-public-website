@@ -19,8 +19,13 @@ nav_order: 20
 {:toc}
 </details>
 
-## How do X?
-This is documented on [mcmicro.org](https://mcmicro.org/){:target="_blank"}.
+## What is an OME-TIFF? 
+
+
+## Is there additional requirements for my OME-TIFF?
+  - All OME-TIFF channels must be 16-bit integers, as output by the [mcmicro](https://mcmicro.org/) pipeline, or unsigned 8-bit integers. (how would someone check this?){:target="_blank"}.
+
+## What if I want to get rid of the automatically created links?
 
 ## Why does my output image have this common defect?
 
