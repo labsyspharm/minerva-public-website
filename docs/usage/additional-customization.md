@@ -2,7 +2,7 @@
 layout: default
 nav_exclude: false
 title: Additional Customizations
-parent: Running Minerva
+parent: How to Use Minerva
 nav_order: 17
 ---
 After your story is exported (with the "Publish" button), you can manually edit the `exhibit.json` file, which follows [this schema](https://labsyspharm.github.io/minerva-story/json-schema/exhibit/build/).

@@ -2,7 +2,7 @@
 layout: default
 title: Computational Method
 nav_order: 20
-parent: Overview
+parent: What is Minerva
 ---
 
 [//]: # If you want to get into the real detailed methods for how your software works, I recommend adding this to a seperate page for more experienced / software interested users. 

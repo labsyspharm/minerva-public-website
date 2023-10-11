@@ -1,7 +1,8 @@
 ---
 layout: default
 title: Tutorial
-nav_order: 4
+parent: How to Use Minerva
+nav_order: 1
 
 ---
 # Tutorial
@@ -129,10 +130,10 @@ Now it's time to add narrative text and annotate the image. Select the "Edit Sto
 
 **Add as many waypoints as you would like. You can change the zoom, pan, and add annotations such as boxes and arrows to the image.**
 
-- Click the arrow icon ![arrow](./images/arrow.svg) on the right of the control pane to create an arrow.
+- Click the arrow icon ![arrow](../images/arrow.svg) on the right of the control pane to create an arrow.
     - Then click anywhere on the image to place an arrow.
     - Click the name of the arrow at the bottom of the control pane to rename or rotate the arrow.
-- Click the crosshair icon ![region](./images/region.svg) on the right of the control pane to make a rectangular outline for any region of interest.
+- Click the crosshair icon ![region](../images/region.svg) on the right of the control pane to make a rectangular outline for any region of interest.
     - Then click and drag anywhere on the image to place the outline.
 
 <img src="https://user-images.githubusercontent.com/9781588/110498441-53562800-80c5-11eb-9225-4e5a46808688.png" align="middle" width="800px" /> 

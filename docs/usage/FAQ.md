@@ -2,7 +2,7 @@
 layout: default
 nav_exclude: false
 title: FAQ
-parent: Running MY SOFTWARE
+parent: How to Use Minerva
 nav_order: 20
 
 ---

@@ -2,7 +2,7 @@
 layout: default
 nav_exclude: false
 title: Data Visualizations
-parent: Running Minerva
+parent: How to Use Minerva
 nav_order: 16
 ---
 # Data Visualizations
