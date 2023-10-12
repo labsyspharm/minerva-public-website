@@ -30,9 +30,12 @@ Minerva is a suite of light-weight software tools that enables interactive viewi
 
 Minerva is built to support the image data sharing for tissue atlases and digital pathology. 
 
-# Why?
+<div style="padding:56.25% 0 0 0;position:relative;"><iframe src="https://player.vimeo.com/video/685606030?badge=0&amp;autopause=0&amp;quality_selector=1&amp;progress_bar=1&amp;player_id=0&amp;app_id=58479" frameborder="0" allow="autoplay; fullscreen; picture-in-picture" style="position:absolute;top:0;left:0;width:100%;height:100%;" title="Data Visualization and Sharing with MINERVA"></iframe></div><script src="https://player.vimeo.com/api/player.js"></script>
 
-What was the current need in the field that motivated the development? Start out by setting the scene. End by describing how your software fills this gap.
+
+[//]: # # Why?
+
+[//]: # What was the current need in the field that motivated the development? Start out by setting the scene. End by describing how your [//]: # software fills this gap.
 
 # Anatomy of a Minerva Story
 
@@ -44,11 +47,19 @@ For your viewers, a <span style="color: #1DC690;">**Minerva Story**</span> start
 
 ![Introductory content example 1, from www.cycif.org/data/gray-stic-1](../images/intro-content-ex1.png)
 
+{: .fs-3 }
+{: .fw-300 }
+Example of introductory text from [a Story on STICs](www.cycif.org/data/gray-stic-1)
+
 ![Introductory content example 2, from www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_3_DATA.html](../images/intro-content-ex2.png)
+
+{: .fs-3 }
+{: .fw-300 }
+Example of introductory text from [a Story on lung cancer](www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_3_DATA.html)
 
 ## Channel tuning
 
-The appropriate range of channel intensities is vital for understanding the image data. Screens can only display $\frac{1}{256}$ of the range of intensity values in source images, so Minerva must choose subset of intensities to display. At the beginning of authoring each <span style="color: #1DC690;">**Minerva Story**</span>, you will get to customize the range of intensities to display for each channel.
+The appropriate range of channel intensities is vital for understanding the image data. Screens can only display 1/256 of the range of intensity values in source images, so Minerva must choose subset of intensities to display. At the beginning of authoring each <span style="color: #1DC690;">**Minerva Story**</span>, <span style="color: #278AB0;">**Minerva Author**</span> will automatically suggest a range of intensities to display for each channel.
 
 ![Auto-Minerva Channel tunning](../images/auto-channel-tuning-ex.png)
 
@@ -70,6 +81,16 @@ Whole slide tissue images contain massive amounts of information. For some audie
 ## Narrated Waypoints
 
 ## Metadata
+
+Metadata provides crucial context for your audience to understand the image data. You can provide a list of most relevant metadata within your story. 
+
+For tissue imaging, we recommend using the [MITI (Minimum Information about Tissue Imaging)](https://www.miti-consortium.org/) standard to guide your metadata selection.
+
+![metadata example, www.tissue-atlas.org/orion-crc-1](../images/metadata.png)
+
+{: .fs-3 }
+{: .fw-300 }
+Example of metadata in [Multimodal spatial profiling of colorectal cancer using Orion](www.tissue-atlas.org/orion-crc-1) Story.
 
 ## Attribution
 
@@ -101,5 +122,3 @@ Minerva is available under the MIT License. It can be downloaded on the [Downloa
 
 # Learn More
 **View the [detailed computational methods](./detailed-methods.html) for more information on how each step is performed.**
-
-*For more details, read the preprint manuscript here: [https://doi.org/](https://doi.org/).*

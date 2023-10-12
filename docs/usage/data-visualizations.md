@@ -9,7 +9,7 @@ nav_order: 16
 
 Sometimes, you may want to include other forms of data visualization alongside your image data to tell a more complete story. 
 
-** Minerva Author supports...**
+**Minerva Author supports**
 
 * [Scatter plots](./data-visualizations.md#scatter-plots)
 * [Matrix plots (heatmaps)](./data-visualizations.md#matrix-plots-heatmaps)

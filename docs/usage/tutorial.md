@@ -3,7 +3,6 @@ layout: default
 title: Tutorial
 parent: How to Use Minerva
 nav_order: 1
-
 ---
 # Tutorial
 
@@ -11,14 +10,12 @@ This page will walk you through the steps of creating a basic Minerva Story, wit
 
 ## STEP 0 (Before you start): Requirements
 
-To create a Minerva Story, you will need
+Check to make sure you have the [required input](index.md#required-input) before you start authoring your story.
 
-- A OME-TIFF image
-  - This image can either be on your local computer or a mounted drive
+{: .fs-3 }
+{: .fw-300 }
 
-- [Recommended] A CSV file with marker names in one column, if marker names are not in the OME-XML metadata.
-  - The header of the column should be `marker_name`
-  - *Alternatively*, you will need to know the marker names and order to add them manually.
+No image data yet? No worries!
 
 This [example dataset](./dataset.md) contains a OME-TIFF and CSV marker file that you can use to follow this tutorial.
 
@@ -157,10 +154,38 @@ Periodically while writing your story, you'll want to click the "Save" button to
 
 Each time you save, Minerva Author will write to a `.story.json` file to store your waypoints and channel groups.
 
-### Publish
+### Publish and make your story public
 
 Once you have completed authoring your story, click the "Publish" button to export a Minerva Story that's ready to publish. You will see the progress bar reach 100% once it is done saving. 
 
-Each time you publish, Minerva Author will write an `index.html` page that loads an `exhibit.json` to display as a Minerva Story, as well as a fully rendered image pyramid for each channel group and cell state segmentation. 
+> *A list of expected outputs can be found [here](index.md#output)*
 
-Add steps about publishing or link to publishing guide.
+To make your story visible to the public, you will need to host your image pyramids, *index.html* and *story.json* files. 
+
+There are many ways to do this. Here, we recommend using GitHub and GitHub Pages with the following steps.
+
+### 5.1 Fork the example repository
+
+[View the example repository for Minerva Stories here](https://github.com/thejohnhoffer/minerva-story-template/){: .btn .btn-outline .btn-arrow }
+
+This create a copy of this repository under your account. GitHub has excellent documentation on how to fork a repository. You can follow their [instructions here](https://docs.github.com/en/get-started/quickstart/fork-a-repo).
+
+### 5.2 Upload your data and story files
+
+The structure of the example repository mirrors the output you will recieve from <span style="color: #278AB0;">**Minerva Author**</span>.
+
+Using Add a File, upload your folder of image pyramids, *index.html* and *story.json* files to your repository, **replacing** the example files. 
+
+![Add a file](../images/add-file-github.PNG)
+
+### 5.3 Making your story public
+
+{: .fs-3 }
+{: .fw-300 }
+**You are nearly there!**
+
+Under **Settings** > **Code and Automations** > **Pages**, you can set the sources of your GitHub Page to *main* and display your site by clicking **Save**.
+
+<img src="../images/github-pages-setup.png" width="600">
+
+Your Minerva Story is ready to be viewed and shared! 

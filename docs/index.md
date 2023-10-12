@@ -8,7 +8,7 @@ hero_heading: "Minerva"
 hero_body: "A suite of light-weight software tools for interactive viewing and fast sharing of large image data."
 hero_ctas:
   - label: "How to use"
-    link: "tutorial.html"
+    link: "usage/index.html"
   - label: "Explore example stories"
     link: "example-stories.html"
 ---

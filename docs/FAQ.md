@@ -2,8 +2,7 @@
 layout: default
 nav_exclude: false
 title: FAQ
-parent: How to Use Minerva
-nav_order: 20
+nav_order: 7
 
 ---
 # Frequently Asked Questions:
