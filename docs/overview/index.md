@@ -12,10 +12,6 @@ has_children: true
 
 [//]: # Reach out to Juliann if you want help with this page!!
 
-# Overview 
-
-{:.no_toc }
-
 <details open markdown="block">
   <summary>
     Table of contents
@@ -43,13 +39,13 @@ A <span style="color: #1DC690;">**Minerva Story**</span> can have any combinatio
 
 ## Introductory content
 
-For your viewers, a <span style="color: #1DC690;">**Minerva Story**</span> starts with the Sample Description you provide when authoring the story. This introductory text gives an overview to your data and its story. Here, you can use plain language to provide essential metadata (i.e., sample origin, basic demographics, diagnosis, etc.)
+For your viewers, a <span style="color: #1DC690;">**Minerva Story**</span> starts with the Sample Description you provide when authoring the story. This introductory text gives an overview to your data and its story. You can also use plain language to provide context with essential metadata (e.g. diagnosis, demographic etc.).
 
-![Introductory content example 1, from www.cycif.org/data/gray-stic-1](../images/intro-content-ex1.png)
+<img src="../images/intro-content-ex1.png" width="600"> 
 
 {: .fs-3 }
 {: .fw-300 }
-Example of introductory text from [a Story on STICs](www.cycif.org/data/gray-stic-1)
+Example of introductory text providing essential metadata. [*Ovarian Cancer with Annotation*](www.cycif.org/data/gray-stic-1)
 
 ![Introductory content example 2, from www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_3_DATA.html](../images/intro-content-ex2.png)
 

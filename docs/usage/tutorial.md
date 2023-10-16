@@ -6,18 +6,28 @@ nav_order: 1
 ---
 # Tutorial
 
-This page will walk you through the steps of creating a basic Minerva Story, with curated channel groups and narrated waypoints. 
+This page will walk you through the steps of creating a basic <span style="color: #1DC690;">**Minerva Story**</span>, with curated channel groups and narrated waypoints. 
 
-## STEP 0 (Before you start): Requirements
+Before you start, it might be helpful to go over the [**Minerva Glossary**](../overview/glossary.md) to know some of the terms in this tutorial.
 
-Check to make sure you have the [required input](index.md#required-input) before you start authoring your story.
+## STEP 0 : Requirements
 
-{: .fs-3 }
+Check to make sure you have the following before you start authoring your story:
+
+1. You will need the path pointing to your **OME-TIFF image**
+  - e.g. "C/Documents/Data/image_01.ome.tif"
+  - This image can either be on your local computer or a mounted drive
+
+2. [Recommended] The path to a **CSV file with marker names in one column**
+  - The header of the column should be `marker_name`. See an example [*marker_name.csv file*](https://gist.githubusercontent.com/thejohnhoffer/f08eac0a9e15ad50eeb21f84276c93e4/raw/marker_names.csv).
+  - *Alternatively*, you will need to know the marker names and order to add them manually.
+
+{: .fs-5 }
 {: .fw-300 }
 
 No image data yet? No worries!
 
-This [example dataset](./dataset.md) contains a OME-TIFF and CSV marker file that you can use to follow this tutorial.
+>This [example dataset](./dataset.md) contains a OME-TIFF and CSV marker file that you can use to follow this tutorial.
 
 ---
 
@@ -180,12 +190,10 @@ Using Add a File, upload your folder of image pyramids, *index.html* and *story.
 
 ### 5.3 Making your story public
 
-{: .fs-3 }
-{: .fw-300 }
-**You are nearly there!**
+>*You are nearly there!*
 
 Under **Settings** > **Code and Automations** > **Pages**, you can set the sources of your GitHub Page to *main* and display your site by clicking **Save**.
 
 <img src="../images/github-pages-setup.png" width="600">
 
-Your Minerva Story is ready to be viewed and shared! 
+Your Minerva Story is ready to be viewed and shared!

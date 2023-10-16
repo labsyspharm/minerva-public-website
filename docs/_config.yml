@@ -56,6 +56,9 @@ footer_logos:
   - name: "Harvard Medical School"
     image: "/assets/images/logo_hms.svg" # this is stored in the remote theme's repo
     url: "https://hms.harvard.edu/"
+  - name: "Harvard Tissue Atlas"
+    image: "./images/logo-hta.PNG"
+    url: "https://tissue-atlas.org/"
 
 # Footer last edited timestamp
 last_edit_timestamp: false # show or hide edit time - page must have `last_modified_date` defined in the frontmatter
