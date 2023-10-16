@@ -4,14 +4,6 @@ title: What is Minerva
 nav_order: 2
 has_children: true
 ---
-
-[//]: # The goal of this page is to give a simplified overview of your software. 
-[//]: # You can probably pull a lot of this from your manuscript, but you probably do not want to show entire figures. Think about which components of which figures are necessary to give readers an overview of the software, isolate those components, and insert them here?
-[//]: # Ideally, this will description will rely on images more than text
-[//]: # See [ASHLAR](https://labsyspharm.github.io/ashlar/overview/overview-land.html) for an example of this.
-
-[//]: # Reach out to Juliann if you want help with this page!!
-
 <details open markdown="block">
   <summary>
     Table of contents
@@ -37,7 +29,72 @@ Minerva is built to support the image data sharing for tissue atlases and digita
 
 A <span style="color: #1DC690;">**Minerva Story**</span> can have any combinations of the following components. 
 
-## Introductory content
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 466 250" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" sodipodi:docname="screenshot-2-imgmap.svg" style="background-image: url(../images/minerva-screenshot-2.png)">
+
+<defs>
+<style>
+svg {
+          background-size: 100% 100%;
+          background-repeat: no-repeat;
+          max-width: 1500px;
+          width: 100%
+        }
+        path {
+            fill: transparent;
+        }
+</style>
+</defs>
+
+<a xlink:href="#narrated-waypoints">
+<title>Narrated Waypoints</title>
+<path d="M 0.22864845,71.602882 V 249.96054 H 98.889724 V 71.602882 Z" inkscape:connector-curvature="0" transform="translate(0 -47)"/>
+</a>
+
+<a xlink:href="#curated-frame-of-view">
+<title>Curated Frame of View</title>
+<path d="M 108.35847,73.919121 V 294.77264 H 317.13458 V 73.919121 Z" inkscape:connector-curvature="0" transform="translate(0 -47)"/>
+</a>
+
+<a xlink:href="#channel-tuning">
+<title>Channel Tuning</title>
+<path d="m 317.13458,71.802452 v 45.993938 h 42.46917 V 71.802452 Z" inkscape:connector-curvature="0" transform="translate(0 -47)"/>
+</a>
+
+<a xlink:href="#channel-groups">
+<title>Channel Groups</title>
+<path d="M 361.27806,71.652832 V 254.73324 h 53.81215 V 71.652832 h -53.81215" inkscape:connector-curvature="0" transform="translate(0 -47)"/>
+</a>
+
+</svg>
+
+## Curated frame of view
+
+### Initial waypoint
+
+Whole slide tissue images contain massive amounts of information. For some audience, a birds-eye perspective of the whole slide can be overwhelming and therefore counter intuitive. The first waypoint of a <span style="color: #1DC690;">**Minerva Story**</span> is akin to a first impression. You may choose to display an area of the sample that's both recognizable and meaningful for the narrative of the story.
+
+<div class="basic-grid two-column">
+
+<div markdown="1">
+![Full slide view](../images/full-slide-view.png)
+</div>
+<div markdown="1">
+![Curated first waypoint](../images/curated-first-waypoint.png)
+</div>
+
+</div><!-- end grid -->
+
+## Channel tuning
+
+The appropriate range of channel intensities is vital for understanding the image data. Screens can only display 1/256 of the range of intensity values in source images, so Minerva must choose subset of intensities to display. At the beginning of authoring each <span style="color: #1DC690;">**Minerva Story**</span>, <span style="color: #278AB0;">**Minerva Author**</span> will automatically suggest a range of intensities to display for each channel.
+
+![Auto-Minerva Channel tunning](../images/auto-channel-tuning-ex.png)
+
+## Channel Groups
+
+## Narrated waypoints
+
+### Introductory content
 
 For your viewers, a <span style="color: #1DC690;">**Minerva Story**</span> starts with the Sample Description you provide when authoring the story. This introductory text gives an overview to your data and its story. You can also use plain language to provide context with essential metadata (e.g. diagnosis, demographic etc.).
 
@@ -53,30 +110,7 @@ Example of introductory text providing essential metadata. [*Ovarian Cancer with
 {: .fw-300 }
 Example of introductory text from [a Story on lung cancer](www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_3_DATA.html)
 
-## Channel tuning
-
-The appropriate range of channel intensities is vital for understanding the image data. Screens can only display 1/256 of the range of intensity values in source images, so Minerva must choose subset of intensities to display. At the beginning of authoring each <span style="color: #1DC690;">**Minerva Story**</span>, <span style="color: #278AB0;">**Minerva Author**</span> will automatically suggest a range of intensities to display for each channel.
-
-![Auto-Minerva Channel tunning](../images/auto-channel-tuning-ex.png)
-
-## Initial waypoint
-
-Whole slide tissue images contain massive amounts of information. For some audience, a birds-eye perspective of the whole slide can be overwhelming and therefore counter intuitive. The first waypoint of a <span style="color: #1DC690;">**Minerva Story**</span> is akin to a first impression. You may choose to display an area of the sample that's both recognizable and meaningful for the narrative of the story.
-
-<div class="basic-grid two-column">
-
-<div markdown="1">
-![Full slide view](../images/full-slide-view.png)
-</div>
-<div markdown="1">
-![Curated first waypoint](../images/curated-first-waypoint.png)
-</div>
-
-</div><!-- end grid -->
-
-## Narrated Waypoints
-
-## Metadata
+### Metadata
 
 Metadata provides crucial context for your audience to understand the image data. You can provide a list of most relevant metadata within your story. 
 
@@ -88,7 +122,7 @@ For tissue imaging, we recommend using the [MITI (Minimum Information about Tiss
 {: .fw-300 }
 Example of metadata in [Multimodal spatial profiling of colorectal cancer using Orion](www.tissue-atlas.org/orion-crc-1) Story.
 
-## Attribution
+### Attribution
 
 A <span style="color: #1DC690;">**Minerva Story**</span> is a publication in its own right. The story author list will likely be different from the manuscript or the data its based on. You can define a preferred way for others to cite your story by including anyone who contributed directory to the story as an author. This could include people who helped conceptualize, write or tune the data.
 

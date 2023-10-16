@@ -22,15 +22,6 @@ nav_order: 7
 
 
 ## Is there additional requirements for my OME-TIFF?
-  - All OME-TIFF channels must be 16-bit integers, as output by the [mcmicro](https://mcmicro.org/) pipeline, or unsigned 8-bit integers. (how would someone check this?){:target="_blank"}.
+  - All OME-TIFF channels must be 16-bit integers, as output by the [mcmicro](https://mcmicro.org/) pipeline, or unsigned 8-bit integers. (how would someone check this?).
 
 ## What if I want to get rid of the automatically created links?
-
-## Why does my output image have this common defect?
-
-To correct this, you'll need to tune this parameter. 
-
-Example
-```
-Show an example of syntax
-```

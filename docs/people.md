@@ -4,7 +4,6 @@ title: People
 nav_order: 90
 
 ---
-
 # People
 [//]: # The main titles here are a suggestion, you may find that another format works better for your application. 
 Minerva is being developed in the [Laboratory for Systems Pharmacology](https://labsyspharm.org) at Harvard Medical School.
@@ -26,4 +25,11 @@ Minerva is being developed in the [Laboratory for Systems Pharmacology](https://
 * [Peter K. Sorger](https://scholar.google.com/citations?user=wS6Ii_cAAAAJ&hl=en)
 * [Sandro Santagata](https://scholar.google.com/citations?hl=en&user=9dUOqJ0AAAAJ)
 
+# Contact Us
+
+**Suggestions** to Minerva code and documentation can be made by opening an issue in the {GitHub repository}(https://github.com/labsyspharm/minerva-story/issues).
+
+**Commonly-encountered questions** are documented on the [FAQ page](FAQ.md)
+
+**Additional questions** about Minerva can be emailed to john_hoffer(at)hms.harvard.edu
 
