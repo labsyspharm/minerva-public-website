@@ -27,7 +27,7 @@ Minerva is being developed in the [Laboratory for Systems Pharmacology](https://
 
 # Contact Us
 
-**Suggestions** to Minerva code and documentation can be made by opening an issue in the {GitHub repository}(https://github.com/labsyspharm/minerva-story/issues).
+**Suggestions** to Minerva code and documentation can be made by opening an issue in the [GitHub repository](https://github.com/labsyspharm/minerva-story/issues).
 
 **Commonly-encountered questions** are documented on the [FAQ page](FAQ.md)
 

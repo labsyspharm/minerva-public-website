@@ -13,22 +13,16 @@ hero_ctas:
     link: "example-stories.html"
 ---
 
+[//]: ## Key Features
 
-[//]: # On this page, use active voice to describe your software. For example, "This software uses python to do X" *instead* of "X is done by using python"
+[//]: ### You only need a browser
 
-# Key Features
+[//]: ### Share with an url
 
-## You only need a browser
-Elaborate on feature.
+[//]: ### mobile friendly
 
-## Share with an url
-Elaborate on feature.
-
-## mobile friendly
-elaborate
-
-## Open source
-Minerva and all of its code is available under the MIT License. It can be downloaded at: [https://github.com/labsyspharm/minerva-story](https://github.com/labsyspharm/minerva-story).
+[//]: ### Open source
+[//]: #Minerva and all of its code is available under the MIT License. It can be downloaded at: [https://github.com/labsyspharm/minerva-story](https://github.com/labsyspharm/minerva-story).
 
 
 

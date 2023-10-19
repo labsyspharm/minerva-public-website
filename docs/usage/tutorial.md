@@ -27,7 +27,7 @@ Check to make sure you have the following before you start authoring your story:
 
 No image data yet? No worries!
 
->This [example dataset](./dataset.md) contains a OME-TIFF and CSV marker file that you can use to follow this tutorial.
+>This [example dataset](../dataset.md) contains a OME-TIFF and CSV marker file that you can use to follow this tutorial.
 
 ---
 

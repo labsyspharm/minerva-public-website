@@ -94,6 +94,8 @@ The appropriate range of channel intensities is vital for understanding the imag
 
 ## Narrated waypoints
 
+Image data can be incredibly information-rich. <span style="color: #1DC690;">**Minerva Story**</span> displays a narrative guide that helps your viewer contextualize and interpret the image data. 
+
 ### Introductory content
 
 For your viewers, a <span style="color: #1DC690;">**Minerva Story**</span> starts with the Sample Description you provide when authoring the story. This introductory text gives an overview to your data and its story. You can also use plain language to provide context with essential metadata (e.g. diagnosis, demographic etc.).

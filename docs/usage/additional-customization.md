@@ -55,8 +55,3 @@ The lensing may also be defined within a waypoint:
     }
   ]
 ```
-
-
-{: .fs-3 }
-{: .fw-300 }
-> \*Remember to ....
