@@ -27,7 +27,7 @@ For more documentation on the format, check out the [OME webpage](https://www-le
     >*Images outputed by the [mcmicro](https://mcmicro.org) pipeline are unsigned 16-bit integers.*
   - [Cell segmentation](./usage/data-visualizations.md#cell-segmentation-masks) masks must be unsigned 32-bit integers, loaded from a separate OME-TIFF
 
-## I see links on gene and/or cell names in some Minerva Stories, how can I add it to my story?
+## I see links on cell type and marker names in some Minerva Stories, how can I add it to my story?
 
 Minerva has a built-in list of external links associated with commonly-encountered cell types and markers that can automatically be added to your story. The list is defined in [main.js](https://github.com/labsyspharm/minerva-browser/blob/master/main.js#L88).
 
@@ -47,4 +47,9 @@ cellTypeData: [
 ....
 ]
 ```
+
 The linked cell types and marker names will look like the ones in [this story](https://www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_3#s=1#w=3#g=0#m=0_3_2_1#a=-100_-100#v=0.5_0.6508_0.5#o=-100_-100_1_1#p=Q).
+
+## Suggest your frequently encountered questions about Minerva!
+
+Is your question not on this list yet? You can suggest your own FAQs by opening an issue on [GitHub Issues](https://github.com/labsyspharm/minerva-public-website/issues) for this website! 

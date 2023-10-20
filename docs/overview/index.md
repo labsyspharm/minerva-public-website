@@ -27,7 +27,9 @@ Minerva is built to support the image data sharing for tissue atlases and digita
 
 # Anatomy of a Minerva Story
 
-A <span style="color: #1DC690;">**Minerva Story**</span> can have any combinations of the following components. 
+{: .fs-5 }
+{: .fw-300 }
+Click on areas of this <span style="color: #1DC690;">**Minerva Story**</span> interface to learn more about each part.
 
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:sodipodi="http://sodipodi.sourceforge.net/DTD/sodipodi-0.dtd" xmlns:inkscape="http://www.inkscape.org/namespaces/inkscape" viewBox="0 0 466 250" inkscape:version="0.92.4 (5da689c313, 2019-01-14)" sodipodi:docname="screenshot-2-imgmap.svg" style="background-image: url(../images/minerva-screenshot-2.png)">
 
@@ -69,44 +71,112 @@ svg {
 
 ## Curated frame of view
 
+Whole slide tissue images contain massive amounts of information. For some audience, a birds-eye perspective of the whole slide can be overwhelming and therefore counter intuitive. For each waypoint of the Minerva Story, you have the option of guiding your audience through the image, directing their attention to the salient details of the data. 
+
 ### Initial waypoint
 
-Whole slide tissue images contain massive amounts of information. For some audience, a birds-eye perspective of the whole slide can be overwhelming and therefore counter intuitive. The first waypoint of a <span style="color: #1DC690;">**Minerva Story**</span> is akin to a first impression. You may choose to display an area of the sample that's both recognizable and meaningful for the narrative of the story.
+The first waypoint of a <span style="color: #1DC690;">**Minerva Story**</span> is akin to a first impression. You may choose to display an area of the sample that's both recognizable and meaningful for the narrative of the story.
 
 <div class="basic-grid two-column">
 
 <div markdown="1">
-![Full slide view](../images/full-slide-view.png)
+<img src="../images/full-slide-view.png" width="800"> 
+
+{: .fs-3 }
+{: .fw-300 }
+An example of a birds-eye view of the whole slide
+
 </div>
 <div markdown="1">
-![Curated first waypoint](../images/curated-first-waypoint.png)
+<img src="../images/curated-first-waypoint.png" height="300"> 
+
+{: .fs-3 }
+{: .fw-300 }
+An example of a curated field of view where cellular-level detail is visible
+
 </div>
 
 </div><!-- end grid -->
 
 ## Channel tuning
 
+When the viewer selects a waypoint, they are first shown a set of markers, called a channel group, selected by the author of the <span style="color: #1DC690;">**Minerva Story**</span> to company that field of view. 
+
 The appropriate range of channel intensities is vital for understanding the image data. Screens can only display 1/256 of the range of intensity values in source images, so Minerva must choose subset of intensities to display. At the beginning of authoring each <span style="color: #1DC690;">**Minerva Story**</span>, <span style="color: #278AB0;">**Minerva Author**</span> will automatically suggest a range of intensities to display for each channel.
 
-![Auto-Minerva Channel tunning](../images/auto-channel-tuning-ex.png)
+<img src="../images/auto-channel-tuning-ex.png" width="50%"> 
+
+{: .fs-3 }
+{: .fw-300 }
+An example of dynamic range suggested by the built-in algorithm of Minerva
+
+<div class="basic-grid two-column">
+
+<div markdown="1">
+<img src="../images/bright-channel-ex.png" width="800"> 
+
+{: .fs-3 }
+{: .fw-300 }
+For contrast, a dynamic range that would be too bright for the same area of interest
+
+</div>
+<div markdown="1">
+<img src="../images/dark-channel-ex.png" height="300"> 
+
+{: .fs-3 }
+{: .fw-300 }
+And an example that shows a range too dark for this area
+
+</div>
+
+</div><!-- end grid -->
+
+### Custimizing channels
+
+The viewer also has the option of curating the markers and the colors they appear in. 
+
+By clicking the gear icon on the top right of the channel group box, viewer can see options to turn on/off each marker, customize their colors, and add additional markers available for this image.
+
+<div class="basic-grid two-column">
+
+<div markdown="1">
+<img src="../images/channel-group-setting.png">
+
+{: .fs-3 }
+{: .fw-300 }
+Clicking the gear icon brings up options to turn on/off channels and customize colors
+
+</div>
+<div markdown="1">
+<img src="../images/channel-group-setting-expanded.png"> 
+
+{: .fs-3 }
+{: .fw-300 }
+Clicking the plus sign brings up a list of other markers available to add to the display
+
+</div>
+
+</div><!-- end grid -->
 
 ## Channel Groups
 
+When the viewer selects a waypoint, they are first shown a set of markers, called a channel group, selected by the author of the <span style="color: #1DC690;">**Minerva Story**</span> to company that field of view. The viewer also has the option of curating the markers and the colors they appear in. 
+
 ## Narrated waypoints
 
-Image data can be incredibly information-rich. <span style="color: #1DC690;">**Minerva Story**</span> displays a narrative guide that helps your viewer contextualize and interpret the image data. 
+<span style="color: #1DC690;">**Minerva Story**</span> displays a narrative guide that you create to help your viewer contextualize and interpret the image data. 
 
 ### Introductory content
 
 For your viewers, a <span style="color: #1DC690;">**Minerva Story**</span> starts with the Sample Description you provide when authoring the story. This introductory text gives an overview to your data and its story. You can also use plain language to provide context with essential metadata (e.g. diagnosis, demographic etc.).
 
-<img src="../images/intro-content-ex1.png" width="600"> 
+<img src="../images/intro-content-ex1.png" width="70%"> 
 
 {: .fs-3 }
 {: .fw-300 }
 Example of introductory text providing essential metadata. [*Ovarian Cancer with Annotation*](www.cycif.org/data/gray-stic-1)
 
-![Introductory content example 2, from www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_3_DATA.html](../images/intro-content-ex2.png)
+<img src="../images/intro-content-ex2.png" width="70%"> 
 
 {: .fs-3 }
 {: .fw-300 }
@@ -118,7 +188,7 @@ Metadata provides crucial context for your audience to understand the image data
 
 For tissue imaging, we recommend using the [MITI (Minimum Information about Tissue Imaging)](https://www.miti-consortium.org/) standard to guide your metadata selection.
 
-![metadata example, www.tissue-atlas.org/orion-crc-1](../images/metadata.png)
+<img src="../images/metadata.png" width="50%"> 
 
 {: .fs-3 }
 {: .fw-300 }
@@ -130,10 +200,14 @@ A <span style="color: #1DC690;">**Minerva Story**</span> is a publication in its
 
 Of course, you will also want to cite the data used in the story, whether is it from a published manuscript or unpublished data.
 
-<div class="basic-grid two-column">
+<div class="basic-grid three-column">
 
 <div markdown="1">
 ![Story from Published manuscript](../images/citation-ex1.png)
+
+{: .fs-3 }
+{: .fw-300 }
+Two examples of attribution in Minerva Stories
 </div>
 <div markdown="1">
 ![Story from unpublished data](../images/citation-ex2.png)
@@ -143,7 +217,7 @@ Of course, you will also want to cite the data used in the story, whether is it 
 
 # How does Minerva work?
 
-Minerva follows a client-server model for delivering content. Images in OME-TIFF or SVS format are imported into **Minerva Author** where a user sets image settings and annotations. **Minerva Author** then renders image pyramids and a configuration file that is read by **Minerva Story** to deliver the content to viewers.
+Minerva follows a client-server model for delivering content. Images in OME-TIFF or SVS format are imported into <span style="color: #278AB0;">**Minerva Author**</span> where a user sets image settings and annotations. <span style="color: #278AB0;">**Minerva Author**</span> then renders image pyramids and a configuration file that is read by <span style="color: #1DC690;">**Minerva Story**</span> to deliver the content to viewers.
 
 ![Minerva Author Architecture](https://user-images.githubusercontent.com/9781588/115775721-3af25200-a381-11eb-8473-bdf2371d0f16.png)
 
@@ -153,4 +227,4 @@ Minerva is available under the MIT License. It can be downloaded on the [Downloa
 <br>
 
 # Learn More
-**View the [detailed computational methods](./detailed-methods.html) for more information on how each step is performed.**
+**View the [detailed computational methods](./detailed-methods.html) for more information on how Minerva works.**
