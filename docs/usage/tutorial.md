@@ -129,9 +129,13 @@ Now it's time to add narrative text and annotate the image. Select the "Edit Sto
 
 **Then enter the title and narrative description for the waypoint.**
 
-- When your Minerva Story is made public:
+- When your <span style="color: #1DC690;">**Minerva Story**</span> is made public:
     - A colored underline will automatically appear when the marker name in the narrative description matches a marker in the currently active “channel groups” legend.
-    - A link to the GeneCard will automatically appear when the marker name in the narrative description matches a marker in the “database” (two CSV files with links and aliases for cell types and markers).
+    - **Optionally**, you can add outgoing links on the marker names in the narrative description that lead to the GeneCard for the corresponding markers.
+
+      {: .fs-5 }
+      {: .fw-300 }
+       See how to set up the links on the [Frequently Asked Questions](../FAQ.md#i-see-links-on-cell-type-and-marker-names-in-some-minerva-stories-how-can-i-add-it-to-my-story) page.
  
 <img src="https://user-images.githubusercontent.com/9781588/110496681-bcd53700-80c3-11eb-95b3-3923aeff347f.png" align="middle" style="border: 1px solid black" width="800px" /> 
 

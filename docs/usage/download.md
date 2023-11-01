@@ -10,8 +10,6 @@ Minerva Author has executable files for Mac and Windows.
 
 For other operating systems (e.g. Linux), Minerva Author can be run direcly with Python.
 
-Note: Minerva Author has been tested in Chrome and Firefox. It **does not support** Safari or Internet Explorer. (pending)
-
 ## Download links
 
 ### Mac
