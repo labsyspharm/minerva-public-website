@@ -33,15 +33,4 @@ PNG alternatives with black text on white background.
 
 SVG version with white text on transparent background.
 
-![minerva](https://user-images.githubusercontent.com/9781588/216702876-91b2d44c-b3f0-41c6-a53f-75fb949481d6.svg)PNG version with white text on black background.
-
-![logo](https://user-images.githubusercontent.com/9781588/216715150-7ac94f23-06c4-42dd-baa4-47f58a6dbd21.png)
-
-PNG alternatives with black text on white background.
-
-![logo-bright](https://user-images.githubusercontent.com/9781588/216715148-22891dcb-663d-4f9d-be1a-fe7f137da4dd.png)
-![logo-bw](https://user-images.githubusercontent.com/9781588/216715149-060119a2-424e-4c9f-b173-778d7556fe37.png)
-
-SVG version with white text on transparent background.
-
 ![minerva](https://user-images.githubusercontent.com/9781588/216702876-91b2d44c-b3f0-41c6-a53f-75fb949481d6.svg)
