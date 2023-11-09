@@ -135,7 +135,7 @@ And an example that shows a range too dark for this area
 
 The viewer also has the option of curating the markers and the colors they appear in. 
 
-By clicking the gear icon on the top right of the channel group box, viewer can see options to turn on/off each marker, customize their colors, and add additional markers available for this image.
+By clicking the ⚙️ icon on the top right of the channel group box, viewer can see options to turn on/off each marker, customize their colors, and add additional markers available for this image.
 
 <div class="basic-grid two-column">
 
@@ -144,7 +144,7 @@ By clicking the gear icon on the top right of the channel group box, viewer can 
 
 {: .fs-3 }
 {: .fw-300 }
-Clicking the gear icon brings up options to turn on/off channels and customize colors
+Clicking the ⚙️ icon brings up options to turn on/off channels and customize colors
 
 </div>
 <div markdown="1">

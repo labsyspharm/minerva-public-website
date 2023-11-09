@@ -194,10 +194,10 @@ Using Add a File, upload your folder of image pyramids, *index.html* and *story.
 
 ### 5.3 Making your story public
 
->*You are nearly there!*
+*You are nearly there!*
 
 Under **Settings** > **Code and Automations** > **Pages**, you can set the sources of your GitHub Page to *main* and display your site by clicking **Save**.
 
 <img src="../images/github-pages-setup.png" width="600">
 
-Your Minerva Story is ready to be viewed and shared!
+Your Minerva Story is ready to be viewed and shared! ✨
