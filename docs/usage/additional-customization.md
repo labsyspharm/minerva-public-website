@@ -5,11 +5,11 @@ title: Additional Customizations
 parent: How to Use Minerva
 nav_order: 17
 ---
-After your story is exported (with the "Publish" button), you can manually edit the exhibit.json file, which follows [this schema](https://labsyspharm.github.io/minerva-story/json-schema/exhibit/build/).
-
 ## Additional Customization
 
-Manual edits to the exhibit.json file allow further customization than possible with the UI.
+After your story is exported (with the "Publish" button), you can manually edit the `exhibit.json` file, which follows [this schema](https://labsyspharm.github.io/minerva-story/json-schema/exhibit/build/). Manual edits to the `exhibit.json` file allow further customization than possible with the user interface.
+
+Here we list the <span style="color: #1DC690;">**Minerva Story**</span> customizations that are currently only available with this method. In time, we will add these features to the user interface.
 
 ### Lensing Configuration
 
@@ -17,9 +17,13 @@ Manual edits to the exhibit.json file allow further customization than possible 
 
 The above example shows an interactive H&E lens over a multi-channel CyCIF image. Configuring this lens is a two-step process.
 
+#### Before you start, please note the following:
+1. The lensing works best when the H&E image and CyCIF image come from the same or adjacent sections. The differences of the tissue features become more significant as the distance between the sections grows.
+1. The alignment of the images are crucial for the final effect. For the following process to work, the two images need to have the same dimensions at a minimum. However, even with same size images, the features may require manual alignment. At the moment, we do not have a set procedure to recommend for the alignment process.
+
 ### Merging two stories
 
-First, follow the [Tutorial](./tutorial.html) twice: for your CyCIF image, then for your H&E image. Ensure two images are the same width and height. Each process results in output formatted like [this example repository](https://github.com/thejohnhoffer/minerva-story-template/). From the "images/out" directory of the H&E output, copy the `HE-0_0__HE` folder to the "images/out" directory of the CyCIF output. Now, configure the CyCIF output's exhibit.json with this snippet added to the "Groups" list:
+First, follow the [Tutorial](./tutorial.html) twice: for your CyCIF image, then for your H&E image. Ensure two images are the same width and height* (**See above*). Each process results in output formatted like [this example repository](https://github.com/thejohnhoffer/minerva-story-template/). From the "images/out" directory of the H&E output, copy the `HE-0_0__HE` folder to the "images/out" directory of the CyCIF output. Now, configure the CyCIF output's exhibit.json with this snippet added to the "Groups" list:
 
 ```
 {

@@ -156,7 +156,7 @@ Adding other ways to visualize data can help you tell a more complete story.
 > *If you are not adding other data visualizations, simply skip to the next step.*
 
 
-[Instructions to add data visualizations](./usage/data-visualizations.md){: .btn .btn-outline .btn-arrow } 
+[Instructions to add data visualizations](./data-visualizations.md){: .btn .btn-outline .btn-arrow } 
 
 ---
 

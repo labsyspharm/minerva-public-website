@@ -9,9 +9,7 @@ has_children: true
 
 If this is your first time using Minerva, head to the [tutorial]({{ site.baseurl }}/usage/tutorial.html) for an example step-by-step guide to create your <span style="color: #1DC690;">**Minerva Story**</span> using <span style="color: #278AB0;">**Minerva Author**</span>.
 
-[//]: # ## Description
-[//]: # This should be a brief, 1-2 sentence description
-[//]: # **MY SOFTWARE** performs this task. 
+[Follow the Tutorial here](./tutorial.md){: .btn .btn-outline .btn-arrow } 
 
 ## Required Input
 
