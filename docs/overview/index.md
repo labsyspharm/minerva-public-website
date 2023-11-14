@@ -27,7 +27,7 @@ Watch this episode of the [**Multiplex Tissue Imaging Technology**](https://www.
 
 # Anatomy of a Minerva Story
 
-![image](../images/annotated_story_ui_2.svg)
+![image](../images/annotated_story_ui.png)
 
 {: .fs-3 }
 {: .fw-300 }
@@ -113,7 +113,7 @@ An example of a birds-eye view of the whole slide
 
 </div>
 <div markdown="1">
-<img src="../images/curated-first-waypoint.png" height="300"> 
+<img src="../images/curated-first-waypoint.jpg" height="300"> 
 
 {: .fs-3 }
 {: .fw-300 }

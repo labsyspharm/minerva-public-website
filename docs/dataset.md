@@ -27,7 +27,7 @@ These two dataset can both be used to follow the tutorial and practice using <sp
     label="Examplar 1 - Small lung adenocarcinoma, 240 MB (320 MB unzipped)"
 %}
 
-{% assign imageUrl = site.baseurl | append: "/images/examplar-data-002.PNG" %}
+{% assign imageUrl = site.baseurl | append: "/images/examplar-data-002.jpg" %}
 {% include image-card.html 
     image=imageUrl
     link="https://www.synapse.org/#!Synapse:syn17778717"
