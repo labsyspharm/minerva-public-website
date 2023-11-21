@@ -13,8 +13,8 @@ has_children: true
 {:toc}
 </details>
 
-# What's Minerva?
-Minerva is a suite of light-weight software tools that enables interactive viewing and fast sharing of large image data. It comprises of <span style="color: #278AB0;">**Minerva Author**</span>, a tool that lets you easily create and annotate images, and <span style="color: #1DC690;">**Minerva Story**</span>, a narrative image viewer for web hosting.
+# What is Minerva?
+Minerva is a suite of light-weight software tools that enables interactive viewing and fast sharing of large image data. It comprises <span style="color: #278AB0;">**Minerva Author**</span>, a tool that lets you easily create and annotate images, and <span style="color: #1DC690;">**Minerva Story**</span>, a narrative image viewer for web hosting.
 
 Minerva is built to support the image data sharing for tissue atlases and digital pathology. 
 
@@ -96,11 +96,11 @@ Two examples of attribution in Minerva Stories
 
 ## Curated Field of View
 
-Whole slide tissue images contain massive amounts of information. For some audience, a birds-eye perspective of the whole slide can be overwhelming and therefore counter intuitive. For each waypoint of the <span style="color: #1DC690;">**Minerva Story**</span>, you have the option of guiding your audience through the image, directing their attention to the salient details of the data. 
+Whole slide tissue images contain massive amounts of information. For some audience, a birds-eye perspective of the whole slide can be overwhelming. For each waypoint of the <span style="color: #1DC690;">**Minerva Story**</span>, you have the option of guiding your audience through the image, directing their attention to the salient details of the data. 
 
 ### Initial waypoint
 
-The first waypoint of a <span style="color: #1DC690;">**Minerva Story**</span> is akin to a first impression. You may choose to display an area of the sample that's both recognizable and meaningful for the narrative of the story.
+The first waypoint of a <span style="color: #1DC690;">**Minerva Story**</span> makes the first impression for your audience. You may choose to display an area of the sample that's both recognizable and meaningful for the narrative of the story.
 
 <div class="basic-grid two-column">
 
