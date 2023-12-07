@@ -16,9 +16,7 @@ nav_exclude: false
 
 These two dataset can both be used to follow the tutorial and practice using <span style="color: #278AB0;">**Minerva Author**</span>. Download the files to your local computer to use them. 
 
-## About the Datasets
-
-### Examplar 1 - Multiplex immunofluorescnet images of small lung adenocarcinoma
+## Examplar 1 - Multiplex immunofluorescnet images of small lung adenocarcinoma
 
 Examplar 1 contains Cyclic Immunofluorescence (CyCIF) images of small lung adenocarcinoma specimens from larger tissue microarray (TMA).
 
@@ -34,7 +32,7 @@ Examplar 1 contains Cyclic Immunofluorescence (CyCIF) images of small lung adeno
 %}
 </div><!-- end grid -->
 
-#### File structure for Examplar 1
+### File structure for Examplar 1
 
 Downloading Examplar 1 will give you the following files. Below is a few words on what they are and how you can use them to practice using <span style="color: #278AB0;">**Minerva Author**</span>.
 
@@ -43,7 +41,7 @@ Downloading Examplar 1 will give you the following files. Below is a few words o
 | illumination | This folder contains *.tif* images that represents illumination correction for the image in raw. You **do not** need these for your <span style="color: #1DC690;">**Minerva Story**</span>. |
 | markers.csv | This is *.csv* file contains the channel names. You can use it as input for input for <span style="color: #278AB0;">**Minerva Author**</span>. |
 
-### Examplar 2 - Multiplex immunofluorescent images of human lung cancer
+## Examplar 2 - Multiplex immunofluorescent images of human lung cancer
 
 Examplar 2 played an instrumental role in the development process of Minerva. Before using Examplar 2, keep in mind that the image file is 20GB in size. Examplar 2 also has [data for visualization charts](#visualization-charts) that you can use to follow the instructions to add [Data Visulaization](./usage/data-visualizations.md) to your story.
 
@@ -51,7 +49,7 @@ This dataset is described in [Rashid et al., Scientific Data, 2019](https://www.
 
 For practice, you can use this dataset to try to reproduce the two stories created to describe [histologic features](https://www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_3.html) and quantitative [single-cell data analysis](https://www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_3_DATA.html) in a single lung cancer specimen.
 
-#### Image File (20 GB)
+### Image File (20 GB)
 
 **Click the image below to view and download the image file in Examplar 2**
 
@@ -66,12 +64,12 @@ For practice, you can use this dataset to try to reproduce the two stories creat
 
 </div><!-- end grid -->
 
-#### Channel Names
+### Channel Names
 
 <!-- https://www.synapse.org/#!Synapse:syn21815856/files/ -->
 - [marker_name.csv](https://gist.githubusercontent.com/thejohnhoffer/f08eac0a9e15ad50eeb21f84276c93e4/raw/marker_names.csv)
 
-#### Visualization Charts
+### Visualization Charts
 
 - [scatterplot.csv](https://gist.githubusercontent.com/thejohnhoffer/f08eac0a9e15ad50eeb21f84276c93e4/raw/scatterplot.csv)
 - [matrix.csv](https://gist.githubusercontent.com/thejohnhoffer/f08eac0a9e15ad50eeb21f84276c93e4/raw/matrix.csv)
