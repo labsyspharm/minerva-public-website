@@ -88,6 +88,12 @@ This string will be used in the output filenames. Avoid spaces and special chara
 
 ## STEP 4: Start authoring
 
+Minerva uses **Markdown** to format text. This means that you can bold text by adding **\*\*around to your text\*\*** and italicize by adding *\*around your text\**. 
+
+You can also add formating elements like headings, lists and tables with **Markdown**. For more **Markdown** basics, follow the link below.
+
+[Markdown Basics](https://labsyspharm.github.io/jekyll-tutorial/markdown-basics.html){: .btn .btn-outline .btn-arrow }{:target="_blank"}
+
 ### 4.1 Enter sample info
 
 **Begin by giving your sample a title and a description.**
@@ -133,9 +139,7 @@ Now it's time to add narrative text and annotate the image. Select the "Edit Sto
     - A colored underline will automatically appear when the marker name in the narrative description matches a marker in the currently active “channel groups” legend.
     - **Optionally**, you can add outgoing links on the marker names in the narrative description that lead to the GeneCard for the corresponding markers.
 
-      {: .fs-5 }
-      {: .fw-300 }
-       See how to set up the links on the [Frequently Asked Questions](../FAQ.md#i-see-links-on-cell-type-and-marker-names-in-some-minerva-stories-how-can-i-add-it-to-my-story) page.
+    > *See how to set up the links on the [Frequently Asked Questions](../FAQ.md#i-see-links-on-cell-type-and-marker-names-in-some-minerva-stories-how-can-i-add-it-to-my-story) page.*
  
 <img src="https://user-images.githubusercontent.com/9781588/110496681-bcd53700-80c3-11eb-95b3-3923aeff347f.png" align="middle" style="border: 1px solid black" width="800px" /> 
 
