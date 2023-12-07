@@ -31,4 +31,4 @@ After download, your Minerva Author is ready to be used in two steps:
   - On Windows, double-click on the executable file **minerva_author.exe**.
   - On MacOS, right-click and "Open" the executable file **minerva_author**.
 
-**Return to [Tutorial](../tutorial#step-2-run-minerva-author) to learn more about how to use Minerva Author.**
+**Return to [Tutorial](./tutorial#step-2-run-minerva-author) to learn more about how to use Minerva Author.**
