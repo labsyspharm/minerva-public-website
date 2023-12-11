@@ -4,25 +4,66 @@ title: Example stories
 nav_order: 21
 nav_exclude: false
 ---
-<div class="basic-grid three-column">
+# Example Stories
+
+<span style="color: #1DC690;">**Minerva Story**</span> can be customized to meet different goals of data sharing. On this page, we share some examples of <span style="color: #1DC690;">**Minerva Stories**</span> showcasing tissue image data in various ways.
+
+## Minerva Story as micro-publications and publication accompaniments
+
+Compared to static, limited resolution figures in trational biomedical publication, <span style="color: #1DC690;">**Minerva Stories**</span> shows image data in its complete form and can convey information that are otherwise difficult to distill. The following two examples are created to accompany publications. 
+
+<div class="basic-grid three-column"><!-- grid 3, three column -->
 
 <div markdown="1">
 {% include image-card.html 
-    image="https://user-images.githubusercontent.com/31513137/79218406-5c3f6a80-7e1e-11ea-8201-211911a1b750.png"
-    link="https://www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_3#s=1#w=3#g=0#m=0_3_2_1#a=-100_-100#v=0.5_0.5_0.5#o=-100_-100_1_1#p=Q"
+    image="./images/orion-abstract.jpg"
+    link="	https://tissue-atlas.org/orion-crc-1"
+    label="Multimodal spatial profiling of colorectal cancer using Orion"
+%}
+</div>
+
+<div markdown="1">
+{% include image-card.html 
+    image="./images/cancer-cell-proliferation.jpg"
+    link="	https://www.cycif.org/data/gaglia-PCQ-2020/osd-0813.html#s=0#w=0#g=0#m=-1#a=-100_-100#v=0.5_0.3514859142674839_0.5#o=-100_-100_1_1#p=Q"
+    label="Temporal and spatial topography of cell proliferation in cancer"
+%}
+</div>
+
+</div><!-- end grid -->
+
+## Highlighting different aspects of the same dataset
+
+One dataset can tell many stories. The two stories below use the same primary lung cancer dataset. One focuses on histology features and the other on quantitative single cell analyses.
+
+<div class="basic-grid three-column"><!-- grid 1, three column -->
+
+<div markdown="1">
+{% include image-card.html 
+    image="./images/primary-lung-cancer.jpg"
+    link="https://www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_3"
     label="Primary Lung Cancer (Histology)"
 %}
 </div>
 <div markdown="1">
 {% include image-card.html 
-    image="https://user-images.githubusercontent.com/31513137/78613907-07f32400-783b-11ea-8bbb-2de7e078873d.png"
-    link="https://www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_3_DATA#s=1#w=3#g=0#m=0_3_2_1#a=-100_-100#v=0.5_0.5_0.5#o=-100_-100_1_1#p=Q"
+    image="./images/primary-lung-cancer-analysis.jpg"
+    link="https://www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_3_DATA"
     label="Primary Lung Cancer (Data Analysis)"
 %}
 </div>
+
+</div><!-- end grid -->
+
+## Minerva in medical and pathology curricula
+
+Traditional textbooks provide static images with limited size and resolution. <span style="color: #1DC690;">**Minerva Stories**</span> are an interactive platform for students to explore tissue images with instructor-curated descriptions. Below is an example of how Minerva can be used to faciliate medical education.
+
+<div class="basic-grid three-column"><!-- grid 2, three column -->
+
 <div markdown="1">
 {% include image-card.html 
-    image="https://user-images.githubusercontent.com/31513137/78613921-14777c80-783b-11ea-8513-e72e0a41b18c.png"
+    image="./images/heart-physiology.jpg"
     link="https://www.cycif.org/data/rashid-2019-heart/"
     label="Heart Histology"
 %}
@@ -30,25 +71,6 @@ nav_exclude: false
 
 </div><!-- end grid -->
 
-<div class="basic-grid three-column">
 
-<div markdown="1">
-{% include image-card.html 
-    image="https://user-images.githubusercontent.com/31513137/78613939-20fbd500-783b-11ea-84af-8bef17f16b46.png"
-    link="https://www.cycif.org/data/tnp-2020/osd-crc-case-1-ffpe-cycif-pilot#s=0#w=0#g=0#m=-1#a=-100_-100#v=0.5_0.5_0.5#o=-100_-100_1_1#p=Q"
-    label="Colorectal Adenocarcinoma"
-%}
-</div>
-<div markdown="1">
-{% include image-card.html 
-    image="https://user-images.githubusercontent.com/31513137/78613958-32dd7800-783b-11ea-8231-2c2425aec4c2.png"
-    link="https://www.cycif.org/data/pca-2019/osd-2_cycif#s=0#w=0#g=0#m=-1#a=-100_-100#v=0.5_0.5_0.5#o=-100_-100_1_1#p=Q"
-    label="Inflammatory regression and brisk TILs in Melanoma"
-%}
-</div>
-<div markdown="1">
 
-</div>
-
-</div><!-- end grid -->
 
