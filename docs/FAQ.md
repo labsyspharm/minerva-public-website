@@ -27,6 +27,10 @@ For more documentation on the format, check out the [OME webpage](https://www-le
     >*Images outputed by the [mcmicro](https://mcmicro.org) pipeline are unsigned 16-bit integers.*
   - [Cell segmentation](./usage/data-visualizations.md#cell-segmentation-masks) masks must be unsigned 32-bit integers, loaded from a separate OME-TIFF
 
+## How to I add a text label in my image without the arrow or the rectangular outline?
+
+
+
 ## I see links on cell type and marker names in some Minerva Stories, how can I add it to my story?
 
 Minerva has a built-in list of external links associated with commonly-encountered cell types and markers that can automatically be added to your story. The list is defined in [main.js](https://github.com/labsyspharm/minerva-browser/blob/master/main.js#L88).
