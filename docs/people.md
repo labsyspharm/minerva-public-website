@@ -16,6 +16,9 @@ Minerva is being developed in the [Laboratory for Systems Pharmacology](https://
 * [Jia-Ren Lin](https://github.com/jrlin1001)
 * [Simon Warchol](https://github.com/simonwarchol/)
 
+## Website Development
+* [Han Xu](https://www.linkedin.com/in/han-xu-16a0216b/)
+
 ## Alumni
 * [Rumana “Ru” Rashid](https://scholar.google.com/citations?user=PjPMy1gAAAAJ&hl)
 * [Douglas Russel](https://www.linkedin.com/in/douglas-russell-00b52153/)

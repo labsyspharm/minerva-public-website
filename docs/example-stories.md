@@ -10,7 +10,7 @@ nav_exclude: false
 
 ## Minerva Story as micro-publications and publication accompaniments
 
-Compared to static, limited resolution figures in trational biomedical publication, <span style="color: #1DC690;">**Minerva Stories**</span> shows image data in its complete form and can convey information that are otherwise difficult to distill. The following two examples are created to accompany publications. 
+Compared to static, limited resolution figures in traditional biomedical publications, <span style="color: #1DC690;">**Minerva Stories**</span> show image data in its complete form and can convey information that is otherwise difficult to distill. The following two examples are created to accompany publications. 
 
 <div class="basic-grid three-column"><!-- grid 3, three column -->
 
