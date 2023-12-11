@@ -40,14 +40,14 @@ One dataset can tell many stories. The two stories below use the same primary lu
 
 <div markdown="1">
 {% include image-card.html 
-    image="./images/primary-lung-cancer.jpg"
+    image="./images/primary-lung-cancer.JPG"
     link="https://www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_3"
     label="Primary Lung Cancer (Histology)"
 %}
 </div>
 <div markdown="1">
 {% include image-card.html 
-    image="./images/primary-lung-cancer-analysis.jpg"
+    image="./images/primary-lung-cancer-analysis.JPG"
     link="https://www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_3_DATA"
     label="Primary Lung Cancer (Data Analysis)"
 %}
@@ -63,7 +63,7 @@ Traditional textbooks provide static images with limited size and resolution. <s
 
 <div markdown="1">
 {% include image-card.html 
-    image="./images/heart-physiology.jpg"
+    image="./images/heart-physiology.JPG"
     link="https://www.cycif.org/data/rashid-2019-heart/"
     label="Heart Histology"
 %}
