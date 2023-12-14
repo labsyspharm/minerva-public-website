@@ -2,7 +2,7 @@
 layout: default
 nav_exclude: false
 title: FAQ
-nav_order: 7
+nav_order: 8
 ---
 # Frequently Asked Questions:
 [//]: # This page can be hidden (nav_exclude: true) if you are not ready to display FAQ on your site.

@@ -7,9 +7,17 @@ has_children: true
 
 # How to use Minerva
 
+<span style="color: #278AB0;">**Minerva Author**</span> has executable files for Mac and Windows. 
+
+For other operating systems (e.g. Linux), <span style="color: #278AB0;">**Minerva Author**</span> can be run direcly with Python.
+
+[Instructions and links to download Minerva Author here](../download.md){: .btn .btn-outline .btn-arrow }
+
+<br>
+
 If this is your first time using Minerva, head to the [tutorial]({{ site.baseurl }}/usage/tutorial.html) for an example step-by-step guide to create your <span style="color: #1DC690;">**Minerva Story**</span> using <span style="color: #278AB0;">**Minerva Author**</span>.
 
-[Follow the Tutorial here](./tutorial.md){: .btn .btn-outline .btn-arrow } 
+[Follow the Tutorial here](./tutorial.md){: .btn .btn-outline .btn-arrow .btn-green} 
 
 ## Required Input
 

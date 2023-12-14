@@ -34,7 +34,7 @@ No image data yet? No worries!
 ## STEP 1: Download Minerva Author
 
 
-[instructions and links to download Minerva Author](./download.md){: .btn .btn-outline .btn-arrow }
+[instructions and links to download Minerva Author](../download.md){: .btn .btn-outline .btn-arrow }
 
 ---
 
