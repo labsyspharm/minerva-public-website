@@ -33,7 +33,6 @@ No image data yet? No worries!
 
 ## STEP 1: Download Minerva Author
 
-
 [instructions and links to download Minerva Author](../download.md){: .btn .btn-outline .btn-arrow }
 
 ---
@@ -46,11 +45,11 @@ No image data yet? No worries!
   - On MacOS, right-click and "Open" the executable file **minerva_author**.
 
 This will open a terminal on your computer and begin running the program
-<img src="https://user-images.githubusercontent.com/31513137/78614058-83ed6c00-783b-11ea-83da-8c80c519b483.png" align="middle" width="800px" /> 
+<img src="https://user-images.githubusercontent.com/31513137/78614058-83ed6c00-783b-11ea-83da-8c80c519b483.png" align="middle" width="800px" alt="A terminal automatically opens and displays text to indicate that Minerva Author is running."/> 
 
 It will also launch the program in your default browser. If your default browser not Firefox or Chrome, copy the URL from the address bar to Chrome or Firefox.
 
-<img src="https://user-images.githubusercontent.com/9781588/110488689-b0011500-80bc-11eb-8c3d-7b25f97f3b08.png" align="middle" width="800px" />
+<img src="https://user-images.githubusercontent.com/9781588/110488689-b0011500-80bc-11eb-8c3d-7b25f97f3b08.png" align="middle" width="800px" alt="Minerva Author interface opens in the browser. The interface prompts the input of path to image or story file, optional marker_name.csv file and optional output name."/>
 
 If the program does not automatically launch, then open a browser and enter `localhost:2020` into the address bar
 
@@ -82,7 +81,7 @@ This string will be used in the output filenames. Avoid spaces and special chara
 {: .fw-300 }
 > \*During this time, your image is being converted to smaller image tiles for faster viewing within the story. This step will take longer if your image is larger in file size.
 
-<img src="https://user-images.githubusercontent.com/9781588/110489394-5c42fb80-80bd-11eb-8929-e0c1f4a62bbf.png" align="middle" width="800px" /> 
+<img src="https://user-images.githubusercontent.com/9781588/110489394-5c42fb80-80bd-11eb-8929-e0c1f4a62bbf.png" align="middle" width="800px" alt="Example inputs are shown on the Minerva Author interface. Path to image is '/Volumnes/Data/HMS/LUNG-3/LUNG-3-PR_40X.ome.tif'. Optional marker_name.csv is '/Volumes/Data/HMS/LUNG-3/channel_names.cvs'. Optional output name is 'LUNG-3-PR'."/> 
 
 ---
 
@@ -98,11 +97,11 @@ You can also add formating elements like headings, lists and tables with **Markd
 
 **Begin by giving your sample a title and a description.**
 
-<img src="https://user-images.githubusercontent.com/9781588/110490758-9fea3500-80be-11eb-98dd-332d1c894d8b.png" align="middle" width="800px" /> 
+<img src="https://user-images.githubusercontent.com/9781588/110490758-9fea3500-80be-11eb-98dd-332d1c894d8b.png" align="middle" width="800px" alt="Minerva Author prompts user to enter sample title and description. Example sample title is 'Primary Lung Cancer'. Example description reads 'An interactive tour of a primary squamous cell carcinoma of lung and adjacent non-neoplastic tissue surgically resected from a 44 year old female patient.'."/> 
 
 **This information will be displayed in the front page in the Minerva Story, along with a table of contents.**
 
-<img src="https://user-images.githubusercontent.com/31513137/80245108-16617e00-8638-11ea-8145-c34a31358080.png" align="middle" width="800px" /> 
+<img src="https://user-images.githubusercontent.com/31513137/80245108-16617e00-8638-11ea-8145-c34a31358080.png" align="middle" width="800px" alt="Sample title and description is shown on the first page of a finished Minerva story."/> 
 	
 ### 4.2 Create channel groups
 
@@ -110,19 +109,19 @@ A channel group is a predefined group of image channels and rendering settings (
 
 **Click the "Add Group" button and enter a name for the channel group.**
 
-<img src="https://user-images.githubusercontent.com/9781588/110492383-205d6580-80c0-11eb-8159-2b39cb12f02e.png" align="middle" width="800px" /> 
+<img src="https://user-images.githubusercontent.com/9781588/110492383-205d6580-80c0-11eb-8159-2b39cb12f02e.png" align="middle" width="800px" alt="Tissue architecture is an example of a channel group name."/> 
 
 **Then, select the channels you want to assign to the channel group.**
 
-<img src="https://user-images.githubusercontent.com/9781588/110492550-4be05000-80c0-11eb-981b-15f1e127ab84.png" align="middle" width="800px" /> 
+<img src="https://user-images.githubusercontent.com/9781588/110492550-4be05000-80c0-11eb-981b-15f1e127ab84.png" align="middle" width="800px" alt="A drop-down menu displays all available channels to add to the channel group."/> 
 
 **Next, change the color for each channel.**
 
-<img src="https://user-images.githubusercontent.com/9781588/110493613-c90bc500-80c0-11eb-87b9-2b97f83e59e5.png" align="middle" width="800px" /> 
+<img src="https://user-images.githubusercontent.com/9781588/110493613-c90bc500-80c0-11eb-87b9-2b97f83e59e5.png" align="middle" width="800px" alt="User can choose the color for each channel by choosing the color directly from a spectrum or entering HEX or GRB code for the desired color."/> 
 
 **Finish by adjusting the channel contrast using the slide bar.**
 
-<img src="https://user-images.githubusercontent.com/9781588/110493617-ca3cf200-80c0-11eb-9229-768c4da8783e.png" align="middle" width="800px" /> 
+<img src="https://user-images.githubusercontent.com/9781588/110493617-ca3cf200-80c0-11eb-9229-768c4da8783e.png" align="middle" width="800px" alt="Under each channel name, there is a slide bar for selecting the range of intensities to display."/> 
 
 Create as many channel groups as you would like. You can always come back to this tab to add more.
 
@@ -131,7 +130,7 @@ Create as many channel groups as you would like. You can always come back to thi
 Now it's time to add narrative text and annotate the image. Select the "Edit Story" tab.
 
 **Start by selecting the channel group you want displayed at this waypoint.**
-<img src="https://user-images.githubusercontent.com/9781588/110497942-e478cf00-80c4-11eb-8dbe-9b3cd8682be6.png" align="middle" width="800px" /> 
+<img src="https://user-images.githubusercontent.com/9781588/110497942-e478cf00-80c4-11eb-8dbe-9b3cd8682be6.png" align="middle" width="800px" alt="Dropdown menu displays two example channel groups, tissue architecture and macrophages, to choose from for this waypoint."/> 
 
 **Then enter the title and narrative description for the waypoint.**
 
@@ -141,7 +140,7 @@ Now it's time to add narrative text and annotate the image. Select the "Edit Sto
 
     > *See how to set up the links on the [Frequently Asked Questions](../FAQ.md#i-see-links-on-cell-type-and-marker-names-in-some-minerva-stories-how-can-i-add-it-to-my-story) page.*
  
-<img src="https://user-images.githubusercontent.com/9781588/110496681-bcd53700-80c3-11eb-95b3-3923aeff347f.png" align="middle" style="border: 1px solid black" width="800px" /> 
+<img src="https://user-images.githubusercontent.com/9781588/110496681-bcd53700-80c3-11eb-95b3-3923aeff347f.png" align="middle" style="border: 1px solid black" width="800px" alt="As an example, the waypoint is titled Tissue Regions, and the description says 'In this tissue specifimen of human lung cancer, the tumor region can be seen on the right-hand side and an adjacent non-tumor, stromal region can be seen on the left-hand side.'"/> 
 
 **Add as many waypoints as you would like. You can change the zoom, pan, and add annotations such as boxes and arrows to the image.**
 
@@ -151,7 +150,7 @@ Now it's time to add narrative text and annotate the image. Select the "Edit Sto
 - Click the crosshair icon ![region](../images/region.svg) on the right of the control pane to make a rectangular outline for any region of interest.
     - Then click and drag anywhere on the image to place the outline.
 
-<img src="https://user-images.githubusercontent.com/9781588/110498441-53562800-80c5-11eb-9225-4e5a46808688.png" align="middle" width="800px" /> 
+<img src="https://user-images.githubusercontent.com/9781588/110498441-53562800-80c5-11eb-9225-4e5a46808688.png" align="middle" width="800px" alt="Examples of the arrows and the rectangular region of interest created by the user are shown. The tip of the arrow points to where the user clicked, and the region of interest is outline in a white solid line."/> 
 
 ### 4.4 Create optional data visualizations
 
@@ -192,9 +191,9 @@ This create a copy of this repository under your account. GitHub has excellent d
 
 The structure of the example repository mirrors the output you will recieve from <span style="color: #278AB0;">**Minerva Author**</span>.
 
-Using Add a File, upload your folder of image pyramids, *index.html* and *story.json* files to your repository, **replacing** the example files. 
+Click **Add File**, upload your folder of image pyramids, *index.html* and *story.json* files to your repository, **replacing** the example files. 
 
-![Add a file](../images/add-file-github.PNG)
+![Choose the Upload Files option under Add File]](../images/add-file-github.PNG)
 
 ### 5.3 Making your story public
 
@@ -202,6 +201,6 @@ Using Add a File, upload your folder of image pyramids, *index.html* and *story.
 
 Under **Settings** > **Code and Automations** > **Pages**, you can set the sources of your GitHub Page to *main* and display your site by clicking **Save**.
 
-<img src="../images/github-pages-setup.png" width="600">
+<img src="../images/github-pages-setup.png" width="600" alt="The option to set the source is under Branches. A dropdown menu displays available branches to choose from.">
 
 Your Minerva Story is ready to be viewed and shared! ✨
