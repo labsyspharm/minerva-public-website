@@ -61,6 +61,10 @@ If the program does not automatically launch, then open a browser and enter `loc
 
 Alternatively, if you have already started authoring a story want to return to it, select the `.story.json` file saved from the previous session.
 
+{: .fs-3 }
+{: .fw-300 }
+> \*See the [FAQ page](../FAQ.md#im-seeing-a-message-about-missing-image-file-when-i-start-with-a-storyjson-file-why-does-this-happen-and-what-do-i-do) for commonly encountered questions on importing `.story.json` file.
+
 **Select the CSV file with a list of marker names in the image**
 
 This file must be a .csv with the [same format as the example](https://gist.githubusercontent.com/thejohnhoffer/f08eac0a9e15ad50eeb21f84276c93e4/raw/marker_names.csv).
@@ -97,7 +101,7 @@ You can also add formating elements like headings, lists and tables with **Markd
 
 **Begin by giving your sample a title and a description.**
 
-<img src="https://user-images.githubusercontent.com/9781588/110490758-9fea3500-80be-11eb-98dd-332d1c894d8b.png" align="middle" width="800px" alt="Minerva Author prompts user to enter sample title and description. Example sample title is 'Primary Lung Cancer'. Example description reads 'An interactive tour of a primary squamous cell carcinoma of lung and adjacent non-neoplastic tissue surgically resected from a 44 year old female patient.'."/> 
+<img src="../images/sample-info.png" align="middle" width="800px" alt="Minerva Author prompts user to enter sample title and description. Example sample title is 'Primary Lung Cancer'. Example description reads 'An interactive tour of a primary squamous cell carcinoma of lung and adjacent non-neoplastic tissue surgically resected from a 44 year old female patient.'."/> 
 
 **This information will be displayed in the front page in the Minerva Story, along with a table of contents.**
 

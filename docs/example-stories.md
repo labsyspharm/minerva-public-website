@@ -71,6 +71,6 @@ Traditional textbooks provide static images with limited size and resolution. <s
 
 </div><!-- end grid -->
 
+## See more Minerva Stories on the Harvard Tissue Atlas website!
 
-
-
+[Harvard Tissue Atlas](https://www.tissue-atlas.org/data-explorations){: .btn .btn-outline .btn-arrow }{:target="_blank"}

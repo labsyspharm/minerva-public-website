@@ -50,6 +50,14 @@ cellTypeData: [
 
 The linked cell types and marker names will look like the ones in [this story](https://www.cycif.org/data/du-lin-rashid-nat-protoc-2019/osd-LUNG_3#s=1#w=3#g=0#m=0_3_2_1#a=-100_-100#v=0.5_0.6508_0.5#o=-100_-100_1_1#p=Q).
 
+## I'm seeing a message about missing image file when I start with a `.story.json` file. Why does this happen and what do I do?
+
+The path to your image is written in the `.story.json` file when you save or export a <span style="color: #1DC690;">**Minerva Story**</span>. When you open a story file, if Minerva cannot find the image using the path in the file it will prompt you to provide a new path. An example of this is shown in the image below. 
+
+When this happens, first make sure that the image is on your device or in a mounted drive. You cannot use an online image for this. Then, all you need to do is navigate to the image on your device.
+
+![Minerva Author prompts "Missing 'LUNG-3-PR_40X.ome.tif'. Please find the image file location". Below the prompt, user is presented with a file browser for local drives.](./images/missing-file.png)
+
 ## Suggest your frequently encountered questions about Minerva!
 
 Is your question not on this list yet? You can suggest your own FAQs by opening an issue on [GitHub Issues](https://github.com/labsyspharm/minerva-public-website/issues) for this website! 
