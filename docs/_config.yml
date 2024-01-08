@@ -57,7 +57,7 @@ footer_logos:
     image: "/assets/images/logo_hms.svg" # this is stored in the remote theme's repo
     url: "https://hms.harvard.edu/"
   - name: "Harvard Tissue Atlas"
-    image: "/images/logo-hta.PNG"
+    image: "/images/logo-hta.png"
     url: "https://tissue-atlas.org/"
 
 # Footer last edited timestamp
