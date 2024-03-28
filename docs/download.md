@@ -9,11 +9,11 @@ nav_order: 7
 
 {: .fs-5 }
 {: .fw-300 }
-For **MacOS** download `minerva_author_macos.zip`.
+For **MacOS** download `minerva_author_vx.xx.x_macos.zip`.
 
 {: .fs-5 }
 {: .fw-300 }
-For **Windows** download `minerva_author_windows.zip`.
+For **Windows** download `minerva_author_vx.xx.x_windows.zip`.
 
 {: .fs-5 }
 {: .fw-300 }

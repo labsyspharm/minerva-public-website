@@ -31,9 +31,11 @@ No image data yet? No worries!
 
 ---
 
-## STEP 1: Download Minerva Author
+## STEP 1: Download the latest version of Minerva Author
 
 [instructions and links to download Minerva Author](../download.md){: .btn .btn-outline .btn-arrow }
+
+Make sure your Minerva Author is the latest version by checking that the zip file name matches with the [latest release](https://github.com/labsyspharm/minerva-author/releases/latest){:target="_blank"}.
 
 ---
 
