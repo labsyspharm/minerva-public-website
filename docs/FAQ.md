@@ -18,14 +18,13 @@ nav_order: 8
 </details>
 
 ## What is an OME-TIFF? 
-OME-TIFF is a TIFF images file format that contains a OME-XML metadata block. 
+OME-TIFF is a TIFF image file that contains extra metadata in OME-XML format describing the image.
 
-For more documentation on the format, check out the [OME webpage](https://www-legacy.openmicroscopy.org/site/products/ome-tiff).
+For more information on OME-TIFF and OME-XML, check out the [OME-TIFF format documentation](https://ome-model.readthedocs.io/en/stable/ome-tiff/index.html).
 
-## Is there additional requirements for my OME-TIFF?
-  - OME-TIFF image channels must be unsigned 16-bit integers or unsigned 8-bit integers
-    >*Images outputed by the [mcmicro](https://mcmicro.org) pipeline are unsigned 16-bit integers.*
-  - [Cell segmentation](./usage/data-visualizations.md#cell-segmentation-masks) masks must be unsigned 32-bit integers, loaded from a separate OME-TIFF
+## Are there additional requirements for my OME-TIFF?
+  - Image channels must have a pixel data type of unsigned 16-bit integer (`uint16`) or unsigned 8-bit integer (`uint8`)
+  - [Cell segmentation](./usage/data-visualizations.md#cell-segmentation-masks) masks must be unsigned 32-bit integers, loaded from a separate OME-TIFF file
 
 ## I see links on cell type and marker names in some Minerva Stories, how can I add it to my story?
 
