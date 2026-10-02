@@ -41,19 +41,18 @@ Make sure your Minerva Author is the latest version by checking that the zip fil
 
 ## STEP 2: Run Minerva Author
 
-* Unzip the downloaded file
-* Run the executable:
-  - On Windows, double-click on the executable file **minerva_author.exe**.
-  - On MacOS, right-click and "Open" the executable file **minerva_author**.
+1. Unzip the downloaded .zip file.
+1. Run the executable:
+  - On macOS, double-click **MinervaAuthor.app**.
+  - On Windows, double-click **MinervaAuthor.exe**. If a warning appears, click "More info" then "Run anyway".
 
-This will open a terminal on your computer and begin running the program
-<img src="https://user-images.githubusercontent.com/31513137/78614058-83ed6c00-783b-11ea-83da-8c80c519b483.png" align="middle" width="800px" alt="A terminal automatically opens and displays text to indicate that Minerva Author is running."/> 
+This will open an informational window that shows messages about what Minerva Author is doing behind the scenes. Keep this window open while you work on your stories.
 
-It will also launch the program in your default browser. If your default browser not Firefox or Chrome, copy the URL from the address bar to Chrome or Firefox.
+![An informational window that shows messages about what Minerva Author is doing behind the scenes](../images/app-window.png)
+
+It will also launch the story editing view in a web browser. If you do not see a view like the image below, open a web browser then enter `localhost:2020` into the address bar and press Return or Enter.
 
 <img src="https://user-images.githubusercontent.com/9781588/110488689-b0011500-80bc-11eb-8c3d-7b25f97f3b08.png" align="middle" width="800px" alt="Minerva Author interface opens in the browser. The interface prompts the input of path to image or story file, optional marker_name.csv file and optional output name."/>
-
-If the program does not automatically launch, then open a browser and enter `localhost:2020` into the address bar
 
 ---
 

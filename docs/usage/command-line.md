@@ -11,16 +11,18 @@ Follow step-by-step instructions [here](https://github.com/labsyspharm/minerva-s
 ## Syntax
 
 ```
-python render.py [-h] [--url url] [--vis vis] [--force] ome_tiff author_json output_dir
+uv run minerva-author-render [-h] [--threads N] [--url URL] [--vis DIR] [--no-images] [--force] OME_TIFF AUTHOR_JSON OUTPUT_DIR
 
-positional arguments
-  ome_tiff      Input path to OME-TIFF with all channel groups
-  author_json   Input Minerva Author save file with channel configuration
-  output_dir    Output directory for exhibit and rendered JPEG pyramid
+positional arguments:
+  OME_TIFF     Input path to OME-TIFF with all channel groups
+  AUTHOR_JSON  Input Minerva Author save file with channel configuration
+  OUTPUT_DIR   Output directory for exhibit and rendered JPEG pyramid
 
 options:
-  -h, --help    show this help message and exit
-  --url url     URL to planned hosting location of rendered JPEG pyramid
-  -vis vis      Input data visualization directory (default constructed from author .json)
-  --force       Overwrite output
+  -h, --help   show this help message and exit
+  --threads N  Number of worker threads to process data in parallel (default: 1)
+  --url URL    URL of planned hosting location of rendered JPEG pyramid
+  --vis DIR    Input data visualization directory (default constructed from author .json)
+  --no-images  Do not generate JPEG tiles (but do build everything else)
+  --force      Overwrite output
 ```
